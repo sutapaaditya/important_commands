@@ -61,3 +61,20 @@ body {
   /* margin-bottom: 1rem; */
   padding: 1rem;
 }
+
+.footer {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+@media only screen and (width <= 414px) {
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .commands {
+    width: 90%;
+  }
+
+}
